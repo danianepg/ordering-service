@@ -13,25 +13,25 @@ The current project has the solution developed by [Daniane P. Gomes](https://www
  - Zuul
  
 ### How to run
-On folder /eureka-server
+* On folder /eureka-server
 
 ```mvnw.cmd clean install -DskipTests```
 
 ```mvn spring-boot:run```
 
-On folder /gateway-service
+* On folder /gateway-service
 
 ```mvnw.cmd clean install -DskipTests```
 
 ```mvn spring-boot:run```
 
-On folder /ordering-service
+* On folder /ordering-service
 
 ```mvnw.cmd clean install -DskipTests```
 
 ```mvn spring-boot:run```
 
-On folder /product-service
+* On folder /product-service
 
 ```mvnw.cmd clean install -DskipTests```
 
