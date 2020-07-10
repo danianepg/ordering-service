@@ -5,11 +5,11 @@ The current project has the solution developed by [Daniane P. Gomes](https://www
 
 ## Introduction
 
-The present application was developed in a microservice architecture with Spring Cloud and contains 4 microservices.
+The present application was developed in a microservice architecture with Spring Boot and Spring Cloud and contains 4 microservices.
 
-The projects ```ordering-service``` and ```product-service``` are microservices that handle business logic and are structure according the **MVC** (Model View Controller) pattern to allow more flexibility handling business logic. It manipulates data and return it in a  navigable format due to compliance to **RESTful** and **HATEOAS** formats.
+The projects ```ordering-service``` and ```product-service``` are microservices that handle business logic and are structured according to the **MVC** (Model View Controller) pattern to allow more flexibility while handling business logic. It manipulates data and returns it in a navigable format due to compliance with **RESTful** and **HATEOAS** formats.
 
-The project ```gateway-service``` is the one that should be exposed to the external world, because it communicates with all the available APIs and handles load balance.  Lastely, ```eureka-service``` handles API dicovery.
+The project ```gateway-service``` is the one that should be exposed to the external world, because it communicates with all the available APIs and handles load balance. Lastly, ```eureka-service``` handles API discovery.
 
 ### Project Stack
  - Java 11
@@ -88,6 +88,11 @@ Check folders:
 * ordering-service\src\test\java\com\danianepg\orderingservice
 * product-service\src\test\java\com\danianepg\productservice
 
+## Future implementations
+* Create **Docker** images for each microservice and allow communications between them to simplify development environment.
+* Enable **service configuration** for different environments (dev, qa, production).
+* Define **call limits** for the application.
+* Unit tests improvements and integration tests.
 
 ### Questions?
 Email me: danianepg@gmail.com :)
