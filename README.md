@@ -3,6 +3,14 @@
 
 The current project has the solution developed by [Daniane P. Gomes](https://www.linkedin.com/in/danianepg/).
 
+## Introduction
+
+The present application was developed in a microservice architecture with Spring Cloud and contains 4 microservices.
+
+The projects ```ordering-service``` and ```product-service``` are microservices that handle business logic and are structure according the **MVC** (Model View Controller) pattern to allow more flexibility handling business logic. It manipulates data and return it in a  navigable format due to compliance to **RESTful** and **HATEOAS** formats.
+
+The project ```gateway-service``` is the one that should be exposed to the external world, because it communicates with all the available APIs and handles load balance.  Lastely, ```eureka-service``` handles API dicovery.
+
 ### Project Stack
  - Java 11
  - Maven 
